@@ -1,0 +1,1 @@
+mvn -l log.txt
