@@ -60,7 +60,7 @@ public class ApplicationDriver {
 		}
 		Collections.sort(result, new CustomComparator());
 		BufferedWriter writer = new BufferedWriter(new FileWriter(Filename));
-		writer.write("Client Id,Transaction Type,Transaction Date,Priority,Fee");
+		writer.write("Client Id,Transaction Type,Transaction Date,Priority,Fee \n");
 		for (SummaryReport sr : result) {
 			String output = sr.getClient_Id() + "," + sr.getTransaction_Type() + "," + sr.getTransaction_Date() + ","
 					+ sr.getPriority() + "," + sr.getProcessing_Fee() + "\n";

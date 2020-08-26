@@ -1,4 +1,5 @@
-Client Id,Transaction Type,Transaction Date,Priority,FeeAP,BUY,11/12/2013,Y,550.0
+Client Id,Transaction Type,Transaction Date,Priority,Fee 
+AP,BUY,11/12/2013,Y,550.0
 AP,BUY,11/3/2013,Y,550.0
 AP,BUY,11/9/2013,Y,550.0
 AP,DEPOSIT,11/19/2013,Y,550.0
